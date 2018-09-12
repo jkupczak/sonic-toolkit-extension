@@ -1,6 +1,3 @@
-console.warn("[sonic-toolkit-extension] loaded /js/trello.js");
-///////////////////////////////////////////////////////////////
-
 // Add support for using shortcuts when inputs are focused.
 // https://github.com/madrobby/keymaster#filter-key-presses
 key.filter = function(event){
