@@ -3,6 +3,20 @@
   "manifest_version": 2,
 
   "name": "Sonic Toolkit",
+  "description": "My personal extension for bending the web to my will.",
+  "version": "2.0.3",
+
+
+
+  "icons": {
+    "192": "icons/icon-256.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon-256.png",
+    "default_title": "Toolkit Options"
+  },
+
+
 
   "web_accessible_resources": [
     "fonts/*",
@@ -11,14 +25,6 @@
     "css/*",
     "icons/*"
   ],
-
-  "description": "My personal extension for bending the web to my will.",
-  "version": "2.0.1",
-
-  "browser_action": {
-    "default_icon": "icons/64-sonic.png",
-    "default_title": "Toolkit Options"
-  },
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -40,9 +46,7 @@
     "file:///*"
   ],
 
-  "icons": {
-    "192": "icons/192-sonic.png"
-  },
+
 
   "content_scripts": [
     {
