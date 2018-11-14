@@ -49,15 +49,7 @@
 
 
   "content_scripts": [
-    {
-      "matches": ["*://*.trello.com/*"],
-      "js": ["js/global.js", "js/libs/arrive.js", "js/libs/alertify.js", "js/libs/keymaster.js", "js/trello.js"]
-    },
-        {
-          "matches": ["*://*.trello.com/*"],
-          "css": ["css/global_styles.css", "css/trello-styles.css", "css/libs/alertify.css"],
-          "run_at": "document_start"
-        },
+
     {
       "matches": ["*://*.twitter.com/*"],
       "js": ["js/toolkit.js"]
